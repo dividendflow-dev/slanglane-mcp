@@ -1,0 +1,21 @@
+{
+  "identifier": "slanglane-dictionary",
+  "author": "SlangLane",
+  "createdAt": "2026-10-20",
+  "homepage": "https://slanglane.com/developers",
+  "meta": {
+    "avatar": "https://slanglane.com/favicon.svg",
+    "title": "SlangLane Dictionary",
+    "description": "Sourced internet English slang dictionary, phrase decoder, and regional US/UK/Irish usage notes via remote Streamable HTTP MCP.",
+    "tags": [
+      "dictionary",
+      "slang",
+      "english",
+      "education",
+      "search",
+      "nlp"
+    ]
+  },
+  "type": "mcp",
+  "url": "https://slanglane.com/mcp"
+}
