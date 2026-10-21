@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SlangLane Decoder</title>
+  <style>
+    body{width:340px;margin:0;padding:14px;font-family:system-ui,-apple-system,sans-serif;background:#f7f7f1;color:#172e24}
+    h1{font-size:17px;margin:0 0 8px}
+    textarea{width:100%;box-sizing:border-box;border:2px solid #172e24;border-radius:10px;padding:8px;font-size:13px;font-family:inherit}
+    button{margin-top:8px;width:100%;background:#172e24;color:#daef8b;border:0;border-radius:99px;padding:9px;font-weight:700;cursor:pointer}
+    .res{margin-top:10px;font-size:13px;max-height:240px;overflow-y:auto}
+    .links{margin-top:10px;font-size:11px;display:flex;justify-content:space-between}
+    .links a{color:#172e24;font-weight:700}
+  </style>
+</head>
+<body>
+  <h1>SlangLane — Decode Slang</h1>
+  <textarea id="q" rows="3" placeholder="Paste a message (e.g. lowkey cooked, no cap)"></textarea>
+  <button id="go">Decode Phrase →</button>
+  <div id="out" class="res"></div>
+  <div class="links">
+    <a href="https://slanglane.com/daily" target="_blank">5-Word Daily Sprint ↗</a>
+    <a href="https://slanglane.com/vibe-check" target="_blank">Vibe Check ↗</a>
+    <a href="https://slanglane.com/esl" target="_blank">ESL Kit ↗</a>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
