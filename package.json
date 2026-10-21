@@ -1,0 +1,31 @@
+{
+  "name": "slanglane-mcp",
+  "version": "1.0.0",
+  "description": "Remote MCP server, 100% SFW ESL Classroom Kit & CC BY 4.0 dataset for SlangLane (https://slanglane.com)",
+  "homepage": "https://slanglane.com/developers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dividendflow-dev/slanglane-mcp.git"
+  },
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "slanglane-mcp": "./index.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "slang",
+    "dictionary",
+    "linguistics",
+    "esl",
+    "tesol",
+    "oer",
+    "nlp",
+    "dataset"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
