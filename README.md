@@ -1,4 +1,7 @@
-# SlangLane Dictionary — Remote MCP Server, 100% SFW ESL Teacher Kit & Open Dataset
+# SlangLane Dictionary
+
+[![Corpus DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23541347.svg)](https://doi.org/10.5281/zenodo.23541347) [![ESL OER DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23541449.svg)](https://doi.org/10.5281/zenodo.23541449) [![Firefox Add-on](https://img.shields.io/badge/Firefox_Add--on-SlangLane-ff7139)](https://addons.mozilla.org/en-US/firefox/addon/slanglane-slang-decoder/)
+ — Remote MCP Server, 100% SFW ESL Teacher Kit & Open Dataset
 
 [![Official MCP Registry](https://img.shields.io/badge/MCP_Registry-com.slanglane%2Fdictionary-172e24)](https://registry.modelcontextprotocol.io/v0.1/servers/com.slanglane%2Fdictionary/versions/latest)
 [![Glama MCP](https://img.shields.io/badge/Glama-Healthy-2ea44f)](https://glama.ai/mcp/connectors/com.slanglane/dictionary)
@@ -70,3 +73,9 @@ import pandas as pd
 df = pd.read_csv("https://slanglane.com/api/dataset.csv?mature=false")
 print(df[["term", "register", "summary"]].head())
 ```
+
+
+## 4. Academic Citations (CERN Zenodo DataCite DOIs)
+- **Lexicon Working Paper & Open Corpus:** [https://doi.org/10.5281/zenodo.23541347](https://doi.org/10.5281/zenodo.23541347) ([Zenodo Record 23541347](https://zenodo.org/records/23541347))
+- **100% SFW Classroom & ESL Teacher Kit (OER):** [https://doi.org/10.5281/zenodo.23541449](https://doi.org/10.5281/zenodo.23541449) ([Zenodo Record 23541449](https://zenodo.org/records/23541449))
+- **Interactive Viral & Classroom Tools:** [Vibe Check](https://slanglane.com/vibe-check) · [Corporate ↔ Gen Z Translator](https://slanglane.com/roast) · [Slang Bingo](https://slanglane.com/bingo) · [Custom 5-Word Quiz Maker](https://slanglane.com/esl/quiz-maker) · [Usage Comparisons](https://slanglane.com/compare)
