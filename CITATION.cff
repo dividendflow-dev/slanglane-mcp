@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use the SlangLane dataset or ESL curriculum, please cite it using this metadata."
+title: "SlangLane — Context-First English Slang Summary Dataset & SFW ESL Curriculum"
+version: "daily-2026-10-21"
+date-released: "2026-10-21"
+url: "https://slanglane.com/data"
+repository-code: "https://github.com/dividendflow-dev/slanglane-mcp"
+license: "CC-BY-4.0"
+authors:
+  - name: "SlangLane Editorial Team"
+    website: "https://slanglane.com"
+keywords:
+  - slang
+  - linguistics
+  - lexicon
+  - esl
+  - nlp
+  - open-educational-resources
