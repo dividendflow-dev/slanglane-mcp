@@ -1,0 +1,10 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.slanglane/dictionary",
+  "title": "SlangLane — Internet English, decoded.",
+  "description": "Sourced internet slang and usage, including labeled non-graphic adult vocabulary.",
+  "version": "1.0.0",
+  "websiteUrl": "https://slanglane.com/developers",
+  "icons": [{ "src": "https://slanglane.com/favicon.svg", "mimeType": "image/svg+xml", "sizes": ["any"] }],
+  "remotes": [{ "type": "streamable-http", "url": "https://slanglane.com/mcp" }]
+}
