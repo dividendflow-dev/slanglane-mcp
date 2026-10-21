@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "SlangLane — Highlight & Decode Slang on Any Page",
+  "version": "1.0.0",
+  "description": "Select any word or message on any webpage to see its sourced slang meaning, register, and plain-English translation from SlangLane.com.",
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://slanglane.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "SlangLane Slang Decoder"
+  }
+}
